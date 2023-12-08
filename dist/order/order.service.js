@@ -38,10 +38,10 @@ let OrdersService = class OrdersService {
         });
     }
 };
-OrdersService = __decorate([
+exports.OrdersService = OrdersService;
+exports.OrdersService = OrdersService = __decorate([
     (0, common_1.Injectable)(),
     __metadata("design:paramtypes", [prisma_service_1.PrismaService])
 ], OrdersService);
-exports.OrdersService = OrdersService;
 ;
 //# sourceMappingURL=order.service.js.map

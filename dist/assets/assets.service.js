@@ -25,9 +25,9 @@ let AssetsService = class AssetsService {
         });
     }
 };
-AssetsService = __decorate([
+exports.AssetsService = AssetsService;
+exports.AssetsService = AssetsService = __decorate([
     (0, common_1.Injectable)(),
     __metadata("design:paramtypes", [prisma_service_1.PrismaService])
 ], AssetsService);
-exports.AssetsService = AssetsService;
 //# sourceMappingURL=assets.service.js.map

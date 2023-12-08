@@ -26,6 +26,7 @@ let OrdersController = class OrdersController {
         return this.ordersService.saveOrder(Object.assign({}, body));
     }
 };
+exports.OrdersController = OrdersController;
 __decorate([
     (0, common_1.Get)(),
     __metadata("design:type", Function),
@@ -39,9 +40,8 @@ __decorate([
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", void 0)
 ], OrdersController.prototype, "saveOrder", null);
-OrdersController = __decorate([
+exports.OrdersController = OrdersController = __decorate([
     (0, common_1.Controller)('/api/orders'),
     __metadata("design:paramtypes", [order_service_1.OrdersService])
 ], OrdersController);
-exports.OrdersController = OrdersController;
 //# sourceMappingURL=order.controller.js.map

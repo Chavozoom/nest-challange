@@ -12,11 +12,11 @@ const assets_controller_1 = require("./assets.controller");
 const assets_service_1 = require("./assets.service");
 let AssetsModule = class AssetsModule {
 };
-AssetsModule = __decorate([
+exports.AssetsModule = AssetsModule;
+exports.AssetsModule = AssetsModule = __decorate([
     (0, common_1.Module)({
         controllers: [assets_controller_1.AssetsController],
         providers: [assets_service_1.AssetsService],
     })
 ], AssetsModule);
-exports.AssetsModule = AssetsModule;
 //# sourceMappingURL=assets.module.js.map

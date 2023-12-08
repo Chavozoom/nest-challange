@@ -12,12 +12,12 @@ const order_controller_1 = require("./order.controller");
 const order_service_1 = require("./order.service");
 let OrdersModule = class OrdersModule {
 };
-OrdersModule = __decorate([
+exports.OrdersModule = OrdersModule;
+exports.OrdersModule = OrdersModule = __decorate([
     (0, common_1.Module)({
         imports: [],
         controllers: [order_controller_1.OrdersController],
         providers: [order_service_1.OrdersService],
     })
 ], OrdersModule);
-exports.OrdersModule = OrdersModule;
 //# sourceMappingURL=order.module.js.map
