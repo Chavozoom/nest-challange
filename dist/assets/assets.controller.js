@@ -40,7 +40,7 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], AssetsController.prototype, "create", null);
 AssetsController = __decorate([
-    (0, common_1.Controller)('assets'),
+    (0, common_1.Controller)('/api/assets'),
     __metadata("design:paramtypes", [assets_service_1.AssetsService])
 ], AssetsController);
 exports.AssetsController = AssetsController;

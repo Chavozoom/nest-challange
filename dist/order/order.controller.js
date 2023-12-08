@@ -40,7 +40,7 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], OrdersController.prototype, "saveOrder", null);
 OrdersController = __decorate([
-    (0, common_1.Controller)('orders'),
+    (0, common_1.Controller)('/api/orders'),
     __metadata("design:paramtypes", [order_service_1.OrdersService])
 ], OrdersController);
 exports.OrdersController = OrdersController;
