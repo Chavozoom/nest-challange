@@ -26,7 +26,6 @@ let AssetsController = class AssetsController {
         return this.assetsService.create(body);
     }
 };
-exports.AssetsController = AssetsController;
 __decorate([
     (0, common_1.Get)(),
     __metadata("design:type", Function),
@@ -40,8 +39,9 @@ __decorate([
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", void 0)
 ], AssetsController.prototype, "create", null);
-exports.AssetsController = AssetsController = __decorate([
+AssetsController = __decorate([
     (0, common_1.Controller)('/api/assets'),
     __metadata("design:paramtypes", [assets_service_1.AssetsService])
 ], AssetsController);
+exports.AssetsController = AssetsController;
 //# sourceMappingURL=assets.controller.js.map

@@ -13,4 +13,5 @@ COPY . .
 
 USER node
 
-CMD [ "npm", "run", "start:dev" ]
+CMD ["tail", "-f", "/dev/null"]
+#CMD [ "npm", "run", "start:dev" ]

@@ -15,12 +15,12 @@ const assets_module_1 = require("./assets/assets.module");
 const order_module_1 = require("./order/order.module");
 let AppModule = class AppModule {
 };
-exports.AppModule = AppModule;
-exports.AppModule = AppModule = __decorate([
+AppModule = __decorate([
     (0, common_1.Module)({
         imports: [prisma_module_1.PrismaModule, assets_module_1.AssetsModule, order_module_1.OrdersModule],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })
 ], AppModule);
+exports.AppModule = AppModule;
 //# sourceMappingURL=app.module.js.map

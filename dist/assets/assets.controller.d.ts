@@ -2,9 +2,9 @@ import { AssetsService } from "./assets.service";
 export declare class AssetsController {
     private readonly assetsService;
     constructor(assetsService: AssetsService);
-    all(): any;
+    all(): import(".prisma/client").Prisma.PrismaPromise<import(".prisma/client").Asset[]>;
     create(body: {
         id: string;
         symbol: string;
-    }): any;
+    }): import(".prisma/client").Prisma.Prisma__AssetClient<import(".prisma/client").Asset, never>;
 }
